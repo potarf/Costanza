@@ -5,46 +5,39 @@ from pprint import pprint
 import re
 
 
-def checkWildCard(str, line):
-    str = "\|".join(str.rsplit("|"))
-    str = "[^:]*".join(str.rsplit("*"))
+def search(str, line):
+    str = "[^~]*".join(str.rsplit("*"))
     str = str + '$'
     pattern = re.compile(str)
     if pattern.match(line):
-        print line
+        return line
 
 
-
-def walk(node):
-    for key, item in node.items():
-        if isCollection(item):
-            walk(item)
-        else:
-            print item
-def printVals1(inKey, line):
+def walk1(inKey, line, searchdb):
     for item in inKey.keys():
         line = str(item)
-        print line
+        #print line
         if not isinstance(inKey[item], dict):
-            line = line + "|" +str(inKey[item])
-            print line
-        #print str(item) + "-----" + str(inKey[item])
+            line = line + "~" +str(inKey[item])
+            #print line
+            searchdb.append(line)
         else:
-            #print str(item)
-            printVals2(inKey[item], line)
+            searchdb = walk2(inKey[item], line, searchdb)
+    return searchdb
 
-def printVals2(inKey, line):
+def walk2(inKey, line, searchdb):
     for item in inKey.keys():
-        tempLine = line + "|" + str(item)
+        tempLine = line + "~" + str(item)
         if not isinstance(inKey[item], dict):
-            tempLine = tempLine + "|" + str(inKey[item])
-            print tempLine
-        #print str(item) + "-----" + str(inKey[item])
+            tempLine = tempLine + "~" + str(inKey[item])
+            #print tempLine
+            searchdb.append(tempLine)
         else:
-            tempLine = tempLine + "|" + str(item)
-            print tempLine
-            #print str(item)
-            printVals2(inKey[item], tempLine)
+            tempLine = tempLine + "~" + str(item)
+            #print tempLine
+            searchdb.append(tempLine)
+            searchdb = walk2(inKey[item], tempLine, searchdb)
+    return searchdb
 
 def isCollection(things):
     try:
@@ -58,7 +51,12 @@ with open(sys.argv[1], 'r') as fp:
     inputFile = json.load(fp)
     loc = sys.argv[2].split(':')
     line = ""
-    printVals1(inputFile, line)
+    searchdb = []
+    searchdb = walk1(inputFile, line, searchdb)
+    for res in searchdb:
+        line = str(search(sys.argv[2], res))
+        if line != "None":
+            print line
 #    for item in loc:
 #        try:
 #            item = float(item)
