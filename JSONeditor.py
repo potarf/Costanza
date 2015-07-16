@@ -126,8 +126,8 @@ elif len(sys.argv) == 4:
         searchdb = []
         searchdb = walk1(inputFile, line, searchdb)
         print "\n\nConverted to:\n\n"
-#        fp.close()
-#        fp = open(sys.argv[1], 'w')
+        fp.close()
+        fp = open(sys.argv[1], 'w')
         for res in searchdb:
             newLoc = sys.argv[2]
             newLoc = newLoc.split("~")
@@ -137,8 +137,9 @@ elif len(sys.argv) == 4:
             line = str(search(ns, res))
             if line != "None":
                 print line
-#        print fp.write(formatJson(inputFile))
-#        fp.close()
+        a = formatJson(inputFile)
+        print fp.write(a)
+        fp.close()
 
 #                while len(loc) > 0:
 #                    itemloc.pop(0)
