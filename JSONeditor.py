@@ -17,8 +17,22 @@ def formatJson(dicti):
     a = json.dumps(dicti, sort_keys=True,
                indent=4, separators=(',', ': '))
     return a
-
-def walk1(inKey):
+##Walks
+def walk(inKey):
+    ##Helps walk 1 with all cases of recursion
+    def walkHelper(inKey, line, searchdb):
+        for item in inKey.keys():
+            tempLine = line + "~" + str(item)
+            if not isinstance(inKey[item], dict):
+                tempLine = tempLine + "~" + str(inKey[item])
+                #print tempLine
+                searchdb.append(tempLine)
+            else:
+                #print tempLine
+                searchdb.append(tempLine)
+                searchdb = walk2(inKey[item], tempLine, searchdb)
+        return searchdb
+    
     line = ""
     searchdb = []
     for item in inKey.keys():
@@ -30,21 +44,10 @@ def walk1(inKey):
             searchdb.append(line)
         else:
             searchdb.append(line)
-            searchdb = walk2(inKey[item], line, searchdb)
+            searchdb = walkHelper(inKey[item], line, searchdb)
     return searchdb
 
-def walk2(inKey, line, searchdb):
-    for item in inKey.keys():
-        tempLine = line + "~" + str(item)
-        if not isinstance(inKey[item], dict):
-            tempLine = tempLine + "~" + str(inKey[item])
-            #print tempLine
-            searchdb.append(tempLine)
-        else:
-            #print tempLine
-            searchdb.append(tempLine)
-            searchdb = walk2(inKey[item], tempLine, searchdb)
-    return searchdb
+
 
 def descend(dictionary, loc):
     prev = dictionary
@@ -61,7 +64,7 @@ elif len(sys.argv) == 2:
         inputFile = json.load(fp)
         line = ""
         searchdb = []
-        searchdb = walk1(inputFile, line, searchdb)
+        searchdb = walk(inputFile)
         for res in searchdb:
             line = res
             if line != "None":
@@ -73,7 +76,7 @@ elif len(sys.argv) == 3:
         inputFile = json.load(fp)
         line = ""
         searchdb = []
-        searchdb = walk1(inputFile)
+        searchdb = walk(inputFile)
         for res in searchdb:
             line = str(search(sys.argv[2], res))
             if line != "None":
@@ -84,7 +87,7 @@ elif len(sys.argv) == 4:
         inputFile = json.load(fp)
         line = ""
         searchdb = []
-        searchdb = walk1(inputFile)
+        searchdb = walk(inputFile)
         print "\n\nTargets:\n\n"
         for res in searchdb:
             line = str(search(sys.argv[2], res))
@@ -124,7 +127,7 @@ elif len(sys.argv) == 4:
                 elif len(loc) == 10:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = new
 fp.close()
-fp = open((sys.argv[1] + "OUT.json"), 'w')
+fp = open((sys.argv[1]), 'w')
 line = ""
 a = formatJson(inputFile)
 fp.write(a)
