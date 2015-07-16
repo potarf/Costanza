@@ -4,7 +4,8 @@ import sys, json
 from pprint import pprint
 import re
 
-
+##Return line if line matches str (re)
+###Else return "None"
 def search(str, line):
     str = "\.".join(str.rsplit("."))
     str = "[^~]*".join(str.rsplit("*"))
@@ -12,12 +13,13 @@ def search(str, line):
     pattern = re.compile(str)
     if pattern.match(line):
         return line
-
+##Format dictionary to pretty JSON, for human/machine readable pickling
 def formatJson(dicti):
     a = json.dumps(dicti, sort_keys=True,
                indent=4, separators=(',', ': '))
     return a
-##Walks
+
+##walk: recursively walk dictionary
 def walk(inKey):
     ##Helps walk 1 with all cases of recursion
     def walkHelper(inKey, line, searchdb):
@@ -48,14 +50,16 @@ def walk(inKey):
     return searchdb
 
 
+#Still working on a better version of descend, for now uses many cases --  BAD
+#def descend(dictionary, loc):
+#    prev = dictionary
+#    newItem = prev[loc.pop(0)]
+#    try:
+#        descend(prev, dict)
+#    except:
+#        print newItem
 
-def descend(dictionary, loc):
-    prev = dictionary
-    newItem = prev[loc.pop(0)]
-    try:
-        descend(prev, dict)
-    except:
-        print newItem
+##Case0 -- print usage
 if len(sys.argv) == 1:
     print "Usage: \n\t./JSONeditor [File]\n\t./JSONeditor [File] [FileStructurePath]\n\t./JSONeditor [File] [FileStructurePath] [Value]\n\t./JSONeditor [File] [FileStructurePath] [New Name]"
 ##Case1 -- print all possible paths
@@ -95,6 +99,7 @@ elif len(sys.argv) == 4:
             if line != "None":
                 print line
                 loc = line.split('~')
+                ##Try to convers what can be converted to floats
                 for item in loc:
                     try:
                         item = float(item)
@@ -104,16 +109,15 @@ elif len(sys.argv) == 4:
                     new = float(sys.argv[3])
                 except ValueError:
                     new = sys.argv[3]
-#print loc
+#uncomment descend and delete case based when descend works recursively
 #descend(inputFile[loc.pop(0)], loc)
+##BAD -- case based
                 if len(loc) == 2:
                     inputFile[loc[0]] = new
                 elif len(loc) == 3:
                     inputFile[loc[0]][loc[1]] = new
                 elif len(loc) == 4:
-                    #print inputFile[loc[0]][loc[1]][loc[2]]
                     inputFile[loc[0]][loc[1]][loc[2]] = new
-                #print inputFile[loc[0]][loc[1]][loc[2]]
                 elif len(loc) == 5:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]] = new
                 elif len(loc) == 6:
@@ -126,9 +130,14 @@ elif len(sys.argv) == 4:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]] = new
                 elif len(loc) == 10:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = new
+    ##Close input file
         fp.close()
+    ##Open output file
         fp = open((sys.argv[1]), 'w')
         line = ""
+        ##Get string formatted as JSON file
         a = formatJson(inputFile)
+        ##Write to output file
         fp.write(a)
+        ##Close output file
         fp.close()
