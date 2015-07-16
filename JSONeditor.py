@@ -30,7 +30,7 @@ def walk(inKey):
             else:
                 #print tempLine
                 searchdb.append(tempLine)
-                searchdb = walk2(inKey[item], tempLine, searchdb)
+                searchdb = walkHelper(inKey[item], tempLine, searchdb)
         return searchdb
     
     line = ""
@@ -126,9 +126,9 @@ elif len(sys.argv) == 4:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]] = new
                 elif len(loc) == 10:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = new
-fp.close()
-fp = open((sys.argv[1]), 'w')
-line = ""
-a = formatJson(inputFile)
-fp.write(a)
-fp.close()
+        fp.close()
+        fp = open((sys.argv[1]), 'w')
+        line = ""
+        a = formatJson(inputFile)
+        fp.write(a)
+        fp.close()
