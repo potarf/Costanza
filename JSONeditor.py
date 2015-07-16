@@ -6,12 +6,17 @@ import re
 
 
 def search(str, line):
+    str = "\.".join(str.rsplit("."))
     str = "[^~]*".join(str.rsplit("*"))
     str = str + '$'
     pattern = re.compile(str)
     if pattern.match(line):
         return line
 
+def formatJson(dicti):
+    a = json.dumps(dicti, sort_keys=True,
+               indent=4, separators=(',', ': '))
+    return a
 
 def walk1(inKey, line, searchdb):
     for item in inKey.keys():
@@ -22,6 +27,7 @@ def walk1(inKey, line, searchdb):
             #print line
             searchdb.append(line)
         else:
+            searchdb.append(line)
             searchdb = walk2(inKey[item], line, searchdb)
     return searchdb
 
@@ -77,28 +83,32 @@ elif len(sys.argv) == 4:
         line = ""
         searchdb = []
         searchdb = walk1(inputFile, line, searchdb)
+        print "\n\nTargets:\n\n"
         for res in searchdb:
             line = str(search(sys.argv[2], res))
+            new = sys.argv[3]
             if line != "None":
                 print line
                 loc = line.split('~')
-                for item in loc:
-                    try:
-                        item = float(item)
-                    except ValueError:
-                        item = item
-                try:
-                    new = float(sys.argv[3])
-                except ValueError:
-                    new = sys.argv[3]
-
+#                for item in loc:
+#                    try:
+#                        item = float(item)
+#                    except ValueError:
+#                        item = item
+#                try:
+#                    new = float(sys.argv[3])
+#                except ValueError:
+#                    new = sys.argv[3]
+#print loc
 #descend(inputFile[loc.pop(0)], loc)
                 if len(loc) == 2:
                     inputFile[loc[0]] = new
                 elif len(loc) == 3:
                     inputFile[loc[0]][loc[1]] = new
                 elif len(loc) == 4:
+                    #print inputFile[loc[0]][loc[1]][loc[2]]
                     inputFile[loc[0]][loc[1]][loc[2]] = new
+                #print inputFile[loc[0]][loc[1]][loc[2]]
                 elif len(loc) == 5:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]] = new
                 elif len(loc) == 6:
@@ -111,14 +121,25 @@ elif len(sys.argv) == 4:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]] = new
                 elif len(loc) == 10:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = new
-                print "Change was successful"
 
 ##Double check changes
-searchdb = walk1(inputFile, line, searchdb)
-for res in searchdb:
-    line = str(search(sys.argv[2], res))
-    if line != "None":
-        print line
+        searchdb = []
+        searchdb = walk1(inputFile, line, searchdb)
+        print "\n\nConverted to:\n\n"
+#        fp.close()
+#        fp = open(sys.argv[1], 'w')
+        for res in searchdb:
+            newLoc = sys.argv[2]
+            newLoc = newLoc.split("~")
+            newLoc[-1] = new
+            ns = '~'.join(newLoc)
+            #print ns
+            line = str(search(ns, res))
+            if line != "None":
+                print line
+#        print fp.write(formatJson(inputFile))
+#        fp.close()
+
 #                while len(loc) > 0:
 #                    itemloc.pop(0)
                     #Change name
