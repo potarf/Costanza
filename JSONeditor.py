@@ -92,15 +92,15 @@ elif len(sys.argv) == 4:
             if line != "None":
                 print line
                 loc = line.split('~')
-#                for item in loc:
-#                    try:
-#                        item = float(item)
-#                    except ValueError:
-#                        item = item
-#                try:
-#                    new = float(sys.argv[3])
-#                except ValueError:
-#                    new = sys.argv[3]
+                for item in loc:
+                    try:
+                        item = float(item)
+                    except ValueError:
+                        item = item
+                try:
+                    new = float(sys.argv[3])
+                except ValueError:
+                    new = sys.argv[3]
 #print loc
 #descend(inputFile[loc.pop(0)], loc)
                 if len(loc) == 2:
@@ -123,26 +123,44 @@ elif len(sys.argv) == 4:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]] = new
                 elif len(loc) == 10:
                     inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = new
+fp.close()
+fp = open((sys.argv[1] + "OUT.json"), 'w')
+line = ""
+a = formatJson(inputFile)
+fp.write(a)
+fp.close()
+#        for res in searchdb:
+#            newLoc = sys.argv[2]
+#            newLoc = newLoc.split("~")
+#            newLoc[-1] = str(new)
+#            ns = '~'.join(newLoc)
+#            #print ns
+#            line = str(search(ns, res))
+#            if line != "None":
+#                print line
+#                try:
+#                    newer = float(new)
+#                    if len(loc) == 2:
+#                        inputFile[loc[0]] = newer
+#                    elif len(loc) == 3:
+#                        inputFile[loc[0]][loc[1]] = newer
+#                    elif len(loc) == 4:
+#                        inputFile[loc[0]][loc[1]][loc[2]] = newer
+#                    elif len(loc) == 5:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]] = newer
+#                    elif len(loc) == 6:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]] = newer
+#                    elif len(loc) == 7:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]] = newer
+#                    elif len(loc) == 8:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]] = newer
+#                    elif len(loc) == 9:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]] = newer
+#                    elif len(loc) == 10:
+#                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][loc[8]] = newer
+#                except Exception:
+#                    pass
 
-##Double check changes
-        searchdb = []
-        searchdb = walk1(inputFile)
-        print "\n\nConverted to:\n\n"
-        fp.close()
-        fp = open(sys.argv[1], 'w')
-        line = ""
-        for res in searchdb:
-            newLoc = sys.argv[2]
-            newLoc = newLoc.split("~")
-            newLoc[-1] = new
-            ns = '~'.join(newLoc)
-            #print ns
-            line = str(search(ns, res))
-            if line != "None":
-                print line
-        a = formatJson(inputFile)
-        print fp.write(a)
-        fp.close()
 
 #                while len(loc) > 0:
 #                    itemloc.pop(0)
