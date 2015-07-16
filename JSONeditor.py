@@ -18,7 +18,9 @@ def formatJson(dicti):
                indent=4, separators=(',', ': '))
     return a
 
-def walk1(inKey, line, searchdb):
+def walk1(inKey):
+    line = ""
+    searchdb = []
     for item in inKey.keys():
         line = str(item)
         #print line
@@ -71,7 +73,7 @@ elif len(sys.argv) == 3:
         inputFile = json.load(fp)
         line = ""
         searchdb = []
-        searchdb = walk1(inputFile, line, searchdb)
+        searchdb = walk1(inputFile)
         for res in searchdb:
             line = str(search(sys.argv[2], res))
             if line != "None":
@@ -82,7 +84,7 @@ elif len(sys.argv) == 4:
         inputFile = json.load(fp)
         line = ""
         searchdb = []
-        searchdb = walk1(inputFile, line, searchdb)
+        searchdb = walk1(inputFile)
         print "\n\nTargets:\n\n"
         for res in searchdb:
             line = str(search(sys.argv[2], res))
@@ -124,10 +126,11 @@ elif len(sys.argv) == 4:
 
 ##Double check changes
         searchdb = []
-        searchdb = walk1(inputFile, line, searchdb)
+        searchdb = walk1(inputFile)
         print "\n\nConverted to:\n\n"
         fp.close()
         fp = open(sys.argv[1], 'w')
+        line = ""
         for res in searchdb:
             newLoc = sys.argv[2]
             newLoc = newLoc.split("~")
