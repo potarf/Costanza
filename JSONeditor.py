@@ -134,7 +134,7 @@ elif len(sys.argv) == 4:
     ##Close input file
         fp.close()
     ##Open output file
-        fp = open((sys.argv[1] + "OUT"), 'w')
+        fp = open((sys.argv[1]), 'w')
         line = ""
         ##Get string formatted as JSON file
         a = formatJson(inputFile)
@@ -214,7 +214,7 @@ elif len(sys.argv) == 5:
         ##Close input file
         fp.close()
         ##Open output file
-        fp = open((sys.argv[1] + "OUT"), 'w')
+        fp = open((sys.argv[1]), 'w')
         line = ""
         ##Get string formatted as JSON file
         a = formatJson(inputFile)
