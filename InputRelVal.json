@@ -20,6 +20,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -40,6 +54,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 1500.0,
             "xAxisMin": 0.0,
@@ -73,6 +101,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -150,6 +192,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -177,6 +233,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 2,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -216,6 +286,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -236,6 +320,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 600.0,
             "xAxisMin": 0.0,
@@ -268,6 +366,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -288,6 +400,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -384,6 +510,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -411,6 +551,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 2,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -450,6 +604,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -477,6 +645,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 8,
+            "xAxisMax": 800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 8,
+            "xAxisMax": 800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 8,
             "xAxisMax": 800.0,
             "xAxisMin": 0.0,
@@ -516,6 +698,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 5,
+            "xAxisMax": 700.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 700.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -543,6 +739,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": 200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 2,
             "xAxisMax": 200.0,
             "xAxisMin": 0.0,
@@ -582,6 +792,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 20,
+            "xAxisMax": 2200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 20,
+            "xAxisMax": 2200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -611,6 +835,20 @@
         "rangeMedium": {
             "rebin": 20,
             "xAxisMax": 1000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 20,
+            "xAxisMax": 1000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 20,
+            "xAxisMax": 2200.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -648,6 +886,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -675,6 +927,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 10,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 10,
             "xAxisMax": 1500.0,
             "xAxisMin": 0.0,
@@ -714,6 +980,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 2500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -741,6 +1021,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 5,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -780,6 +1074,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -813,6 +1121,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 3500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -840,6 +1162,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 5,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -879,6 +1215,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -908,6 +1258,20 @@
         "rangeMedium": {
             "rebin": 2,
             "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -945,6 +1309,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 2,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 900.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -972,6 +1350,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -1011,6 +1403,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1038,6 +1444,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 26.0,
             "xAxisMin": 0.0,
@@ -1077,6 +1497,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1104,6 +1538,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 5.0,
             "xAxisMin": 0.0,
@@ -1143,6 +1591,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1170,6 +1632,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 26.0,
             "xAxisMin": 0.0,
@@ -1209,6 +1685,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1236,6 +1726,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 5.0,
             "xAxisMin": 0.0,
@@ -1275,6 +1779,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1302,6 +1820,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 5.0,
             "xAxisMin": 0.0,
@@ -1341,6 +1873,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1368,6 +1914,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 26.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 26.0,
             "xAxisMin": 0.0,
@@ -1407,6 +1967,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1434,6 +2008,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 5.0,
             "xAxisMin": 0.0,
@@ -1473,6 +2061,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 5.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1502,6 +2104,13 @@
         "rangeMedium": {
             "rebin": 10,
             "xAxisMax": 800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 1200.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -1539,6 +2148,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 1800.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -1568,6 +2184,13 @@
         "rangeMedium": {
             "rebin": 10,
             "xAxisMax": 1000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 1800.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -1605,6 +2228,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -1632,6 +2262,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 1.0,
             "xAxisMin": -0.1,
@@ -1671,6 +2308,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1698,6 +2342,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 2.0,
+            "xAxisMin": -1.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 2.0,
             "xAxisMin": -1.0,
@@ -1737,6 +2388,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1764,6 +2422,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 1.0,
             "xAxisMin": -0.1,
@@ -1803,6 +2468,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 2.0,
+            "xAxisMin": -1.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1832,6 +2504,13 @@
         "rangeMedium": {
             "rebin": 2,
             "xAxisMax": 150.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 200.0,
             "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -1869,6 +2548,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 1000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1902,6 +2588,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 5,
+            "xAxisMax": 1500.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1929,6 +2622,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 100.0,
+            "xAxisMin": -1.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 100.0,
             "xAxisMin": -1.0,
@@ -1968,6 +2668,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -1995,6 +2702,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 30.0,
             "xAxisMin": -30.0,
@@ -2034,6 +2748,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2061,6 +2782,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 20.0,
             "xAxisMin": -20.0,
@@ -2100,6 +2828,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2127,6 +2862,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -2166,6 +2908,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2193,6 +2942,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 20.0,
             "xAxisMin": -20.0,
@@ -2232,6 +2988,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2262,6 +3025,13 @@
             "rebin": 5,
             "xAxisMax": 3000.0,
             "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2298,6 +3068,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 4000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2326,6 +3103,13 @@
         },
         "rangeMedium": {
             "rebin": 2,
+            "xAxisMax": 1000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 5,
             "xAxisMax": 1000.0,
             "xAxisMin": -10.0,
             "yAxisMax": -1.0,
@@ -2364,6 +3148,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2394,6 +3185,13 @@
             "rebin": 2,
             "xAxisMax": 3000.0,
             "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2430,6 +3228,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 4000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2460,6 +3265,13 @@
             "rebin": 2,
             "xAxisMax": 3000.0,
             "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2496,6 +3308,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2526,6 +3345,13 @@
             "rebin": 5,
             "xAxisMax": 6000.0,
             "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 4000.0,
+            "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2562,6 +3388,13 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2593,6 +3426,13 @@
             "xAxisMax": 10.0,
             "xAxisMin": 0.0,
             "yAxisMax": 1600.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 10.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": 1000.0,
             "yAxisMin": 0.0
         },
         "refColor": 2,
@@ -2628,6 +3468,13 @@
             "yAxisMax": 1600.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 10.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": 1000.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -2661,6 +3508,13 @@
             "yAxisMax": 6000.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 10.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": 4000.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -2692,6 +3546,13 @@
             "xAxisMax": 10.0,
             "xAxisMin": 0.0,
             "yAxisMax": 1000.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 10.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": 500.0,
             "yAxisMin": 0.0
         },
         "refColor": 2,
@@ -2889,6 +3750,101 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_ntp_HF"
     },
+    "HcalNoiseRatesTask/hRBXEnergy": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy.gif",
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy (GeV)"
+    },
+    "HcalNoiseRatesTask/hRBXEnergyType1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type1.gif",
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 400.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 1 (GeV)"
+    },
+    "HcalNoiseRatesTask/hRBXEnergyType2": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type2.gif",
+        "rangeMediumData": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 2 (GeV)"
+    },
+    "HcalNoiseRatesTask/hRBXEnergyType3": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type3.gif",
+        "rangeMediumData": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 3 (GeV)"
+    },
+    "HcalNoiseRatesTask/hRBXNHits": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_Nhits.gif",
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 40.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX number of hits"
+    },
     "HcalRecHitTask/HcalRecHitTask_RecHit_Aux_StatusWord_HB": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
@@ -2911,6 +3867,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -2950,6 +3920,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -2977,6 +3961,20 @@
             "yAxisMin": 1e-09
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3016,6 +4014,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -3043,6 +4055,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3082,6 +4108,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -3109,6 +4149,20 @@
             "yAxisMin": 1e-09
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 1e-08
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3148,6 +4202,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -3175,6 +4243,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 10,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 10,
             "xAxisMax": 600.0,
             "xAxisMin": 0.0,
@@ -3214,6 +4296,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3241,6 +4337,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 10,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 10,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3280,6 +4390,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 60.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 60.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3307,6 +4431,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 25.0,
             "xAxisMin": 0.0,
@@ -3346,6 +4484,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3373,6 +4525,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 25.0,
             "xAxisMin": 0.0,
@@ -3412,6 +4578,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 25.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3439,6 +4619,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3478,6 +4672,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3505,6 +4713,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3544,6 +4766,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3564,6 +4800,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 500.0,
             "xAxisMin": 0.0,
@@ -3596,6 +4846,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -3616,6 +4880,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -3649,6 +4927,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 30.0,
             "xAxisMin": 0.0,
@@ -3745,6 +5037,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3774,6 +5080,20 @@
         "rangeMedium": {
             "rebin": 10,
             "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3811,6 +5131,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3838,6 +5172,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 10,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 10,
+            "xAxisMax": 600.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 10,
             "xAxisMax": 600.0,
             "xAxisMin": 0.0,
@@ -3877,6 +5225,20 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 29.0,
+            "xAxisMin": -29.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 29.0,
+            "xAxisMin": -29.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3904,6 +5266,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -3943,6 +5319,20 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3970,6 +5360,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -4061,6 +5465,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4088,6 +5506,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4205,6 +5637,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4238,6 +5684,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4265,6 +5725,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4356,6 +5830,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4383,6 +5871,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4422,6 +5924,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4455,6 +5971,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4482,6 +6012,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4599,6 +6143,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4632,6 +6190,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4659,6 +6231,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4750,6 +6336,20 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -4777,6 +6377,20 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -4816,175 +6430,24 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
-        "refColor": 41,
-        "statFlag": "noStat",
-        "valColor": 42,
-        "xAxisTitle": "HO: occupancy vs ieta"
-    },
-    "NoiseRatesTask/hRBXEnergy": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "NoLog",
-        "outLabel": "RBX_energy.gif",
-        "rangeHigh": {
+        "rangeMediumData": {
             "rebin": 1,
-            "xAxisMax": 500.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 500.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 500.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "RBX energy (GeV)"
-    },
-    "NoiseRatesTask/hRBXEnergyType1": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "NoLog",
-        "outLabel": "RBX_energy_type1.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 400.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 400.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 400.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "RBX energy type 1 (GeV)"
-    },
-    "NoiseRatesTask/hRBXEnergyType2": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "NoLog",
-        "outLabel": "RBX_energy_type2.gif",
-        "rangeHigh": {
-            "rebin": 4,
-            "xAxisMax": 1200.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 200.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 4,
-            "xAxisMax": 1200.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "RBX energy type 2 (GeV)"
-    },
-    "NoiseRatesTask/hRBXEnergyType3": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "NoLog",
-        "outLabel": "RBX_energy_type3.gif",
-        "rangeHigh": {
-            "rebin": 4,
-            "xAxisMax": 1200.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 5,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
-        "rangeMedium": {
-            "rebin": 4,
-            "xAxisMax": 1200.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "RBX energy type 3 (GeV)"
-    },
-    "NoiseRatesTask/hRBXNHits": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "NoLog",
-        "outLabel": "RBX_Nhits.gif",
-        "rangeHigh": {
+        "rangeMediumPileup": {
             "rebin": 1,
-            "xAxisMax": 40.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 40.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 40.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "RBX number of hits"
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HO: occupancy vs ieta"
     },
     "HcalSimHitsTask/Hit01": {
         "chi2Flag": "Chi2",
@@ -5897,6 +7360,206 @@
         "statFlag": "Statrv",
         "valColor": 1,
         "xAxisTitle": "Log_10 Energy in HO vs Hit contribution"
+    },
+    "NoiseRatesTask/hRBXEnergy": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy (GeV)"
+    },
+    "NoiseRatesTask/hRBXEnergyType1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 400.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 400.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 400.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 400.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 1 (GeV)"
+    },
+    "NoiseRatesTask/hRBXEnergyType2": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type2.gif",
+        "rangeHigh": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 2 (GeV)"
+    },
+    "NoiseRatesTask/hRBXEnergyType3": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_energy_type3.gif",
+        "rangeHigh": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 5,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 4,
+            "xAxisMax": 1200.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX energy type 3 (GeV)"
+    },
+    "NoiseRatesTask/hRBXNHits": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "RBX_Nhits.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 40.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 40.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 40.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 40.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "RBX number of hits"
     },
     "SimHitsValidationHcal/Energy_HB": {
         "chi2Flag": "noChi2",
@@ -8900,5 +10563,4 @@
         "valColor": 42,
         "xAxisTitle": "Time_Enweighted_HO"
     }
-
 }
