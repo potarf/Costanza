@@ -25,13 +25,13 @@ def walk(inKey):
     def walkHelper(inKey, line, searchdb):
         for item in inKey.keys():
             tempLine = line + "~" + str(item)
+            searchdb.append(tempLine)
             if not isinstance(inKey[item], dict):
                 tempLine = tempLine + "~" + str(inKey[item])
                 #print tempLine
                 searchdb.append(tempLine)
             else:
                 #print tempLine
-                searchdb.append(tempLine)
                 searchdb = walkHelper(inKey[item], tempLine, searchdb)
         return searchdb
     
@@ -134,7 +134,7 @@ elif len(sys.argv) == 4:
     ##Close input file
         fp.close()
     ##Open output file
-        fp = open((sys.argv[1]), 'w')
+        fp = open((sys.argv[1] + "OUT"), 'w')
         line = ""
         ##Get string formatted as JSON file
         a = formatJson(inputFile)
@@ -174,33 +174,36 @@ elif len(sys.argv) == 5:
                 if len(loc) == 1:
                     if str(type(inputFile[loc[0]])) == "<type 'dict'>":
                         inputFile[new] = inputFile.pop(loc[0])
-                    else:
-                        inputFile = new
                 elif len(loc) == 2:
                     if str(type(inputFile[loc[0]][loc[1]])) == "<type 'dict'>":
                         inputFile[loc[0]][new] = inputFile[loc[0]].pop(loc[1])
                     else:
-                        inputFile[loc[0]] = new
+                        inputFile[new] = inputFile[loc[0]]
+                        del inputFile[loc[0]]
                 elif len(loc) == 3:
                     if str(type(inputFile[loc[0]][loc[1]][loc[2]])) == "<type 'dict'>":
                         inputFile[loc[0]][loc[1]][new] = inputFile[loc[0]][loc[1]].pop(loc[2])
                     else:
-                        inputFile[loc[0]][loc[1]] = new
+                        inputFile[loc[0]][new] = inputFile[loc[0]][loc[1]]
+                        del inputFile[loc[0]][loc[1]]
                 elif len(loc) == 4:
                     if str(type(inputFile[loc[0]][loc[1]][loc[2]][loc[3]])) == "<type 'dict'>":
                         inputFile[loc[0]][loc[1]][loc[2]][new] = inputFile[loc[0]][loc[1]][loc[2]].pop(loc[3])
                     else:
-                        inputFile[loc[0]][loc[1]][loc[2]] = new
+                        inputFile[loc[0]][loc[1]][new] = inputFile[loc[0]][loc[1]][loc[2]]
+                        del inputFile[loc[0]][loc[1]][loc[2]]
                 elif len(loc) == 5:
                     if str(type(inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]])) == "<type 'dict'>":
                         inputFile[loc[0]][loc[1]][loc[2]][loc[3]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]].pop(loc[4])
                     else:
-                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]] = new
+                        inputFile[loc[0]][loc[1]][loc[2]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]]
+                        del inputFile[loc[0]][loc[1]][loc[2]][loc[3]]
                 elif len(loc) == 6:
                     if str(type(inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]])) == "<type 'dict'>":
                         inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]].pop(loc[5])
                     else:
-                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]] = new
+                        inputFile[loc[0]][loc[1]][loc[2]][loc[3]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]]
+                        del inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]]
                 else:
                     print "Add another case at line 204"
                 #uncomment descend and delete case based when descend works recursively
@@ -225,8 +228,6 @@ elif len(sys.argv) == 5:
 #                    inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]].pop([loc[7]])
 #                elif len(loc) == 10:
 #                    inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]][new] = inputFile[loc[0]][loc[1]][loc[2]][loc[3]][loc[4]][loc[5]][loc[6]][loc[7]].pop([loc[8]])
-                print loc
-                print len(loc)
 #                if len(loc) == 1:
 #                    inputFile[new] = inputFile.pop(loc[0])
 #                if len(loc) == 2:
