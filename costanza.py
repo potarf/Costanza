@@ -61,7 +61,7 @@ def walk(inKey):
 
 ##Case0 -- print usage
 if len(sys.argv) == 1:
-    print "Usage: \n\tTo Print:\n\t\t./costanza [File]\n\tTo Print Matching Paths:\n\t\t./costanza [File] [FileStructurePath]\n\tTo Change Value\n\t\t./costanza [File] [FileStructurePath] [Value]\n\tTo Change Item Name:\n\t\t./costanza [File] [FileStructurePath] [New Name] -rn"
+    print "Usage: \n\tTo Print:\n\t\t./costanza.py [File]\n\tTo Print Matching Paths:\n\t\t./costanza.py [File] [FileStructurePath]\n\tTo Change Value\n\t\t./costanza.py [File] [FileStructurePath] [Value]\n\tTo Change Item Name:\n\t\t./costanza [File] [FileStructurePath] [New Name] -rn"
 ##Case1 -- print all possible paths
 elif len(sys.argv) == 2:
     with open(sys.argv[1], 'r') as fp:
